@@ -1,0 +1,146 @@
+@media (prefers-color-scheme: light) {
+body { background-color: #F2F2F3; }
+div { color: #222529; }
+.Блок { background-color:white; }
+.Картинки {filter: invert(1);}
+#A { background-color:white; }
+.Z { filter: invert(1); }
+#ico { filter: invert(1); }
+#Приветствие { background-color:white; }
+}
+@media (prefers-color-scheme: dark) {
+body { background-color: #141414; }
+div { color: white; }
+.Блок { background-color:#1C1C1E; }
+#A { background-color:#1C1C1E; }
+#Приветствие { background-color:#1C1C1E; }
+}
+
+div {
+	font-size: 2vw; 
+	font-family: -apple-system, BlinkMacSystemFont, Open Sans, Roboto,Helvetica Neue, Helvetica, sans-serif;
+}
+a {
+	text-decoration: none; 
+	color: #C99447;
+}
+#A {	
+    position: relative;
+	top: 6vw;
+	border-radius: 0.2vw;  
+	padding-top: 0.3vw;
+	padding-bottom: 0.3vw;
+}
+
+#A1 {
+padding-left: 12.2vw;
+}
+#A2 {
+padding-left: 1vw;	
+}
+#A3 {
+padding-left: 1vw;
+}
+#A4 {
+padding-left: 1vw;
+}
+#A5 { 
+padding-left: 1vw;
+}
+
+
+.Z {
+	position:  absolute;
+	top: 1vw;
+	width: 5vw;     
+} 
+ 
+#Z1 { left: 22.5vw; }
+#Z2 { left: 32.5vw; }
+#Z3 { left: 42.5vw; }
+#Z4 { left: 52.5vw; }
+#Z5 { left: 62.5vw; }
+#Z6 { left: 73vw;
+      height: 5vw; 
+      width: 4vw;  }
+
+#Приветствие{
+  line-height: 2.2vw;
+  text-indent: 2vw;
+  position:  absolute;
+  top: 12vw;
+  left: 4vw;
+  right: 18vw;
+  border-radius: 0.2vw;  
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+}
+
+#Отступ{position: absolute;
+  top: 12vw;}
+
+#Лысик {
+  width: 13.9vw;
+  position:  absolute;
+  top: 10vw;
+  right: 1vw;
+}
+
+.sample {
+  width: 23.8vw;   
+  position:  relative;
+  top: 8vw;
+  left: 1vw;
+  border-radius: 0.2vw;
+  }
+
+.Блок {
+  position: absolute;
+  top: 12vw;
+  border-radius: 0.2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+}
+
+#Подблок {
+  font-size: 1.88vw;
+  position: absolute;
+  top: 12vw;
+  left: 13vw;
+  line-height: 2.38vw;
+}
+
+#w1 {margin-left: 1.8vw;}
+#w2 {margin-left: 3.5vw;}
+.Картинки {
+	width: 2.5vw;
+}
+#medium {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+
+/* ширина */
+::-webkit-scrollbar {
+  width: 0.7vw;
+}
+
+/* дорожка */
+::-webkit-scrollbar-track {
+  background: #36373D;
+}
+
+/* бегунок */
+::-webkit-scrollbar-thumb {
+  background: #C99447;
+  border-radius: 0.2vw;
+}
+
+/* бегунок при наведении */
+::-webkit-scrollbar-thumb:hover {
+  background: #C99447;
+}
+
